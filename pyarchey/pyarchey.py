@@ -254,19 +254,21 @@ logosDict = {'Arch Linux': """{color[1]}
 {color[1]}
 \x1b[0m"""
 , 'Mac OSX':"""{color[0]}
-{color[0]}                  ##             {results[0]}
-{color[0]}               ####              {results[1]}
-{color[0]}               ##                {results[2]}
-{color[0]}       #######    #######        {results[3]}
-{color[0]}     ######################      {results[4]}
-{color[0]}    #####################        {results[5]}
-{color[0]}    ####################         {results[6]}
-{color[0]}    ####################         {results[7]}
-{color[0]}    #####################        {results[8]}
-{color[0]}     ######################      {results[9]}
-{color[0]}      ####################       {results[10]}
-{color[0]}        ################         {results[11]}
-{color[0]}          ###     ####           {results[12]}
+{color[0]}                                Here's                 {results[0]}
+{color[0]}                               to the                  {results[1]}
+{color[0]}               crazy ones,    the      misfits,        {results[2]}
+{color[0]}         the rebels, the troublemakers.The round       {results[3]}
+{color[0]}       pegs in the square holes. They're not fond      {results[4]}
+{color[0]}      of rules, and they have no respect               {results[5]}
+{color[0]}      for the status quo. You can quote                {results[6]}
+{color[0]}      them. Disagree with them. Glarify                {results[7]}
+{color[0]}       or vilify them. About the only thing            {results[8]}
+{color[0]}        you can't do is ignore them, because they      {results[9]}
+{color[0]}         change things.   And while some may see       {results[10]}
+{color[0]}          them as the crazy ones, we see genius.       {results[11]}
+{color[0]}            Because the people who are crazy e-        {results[12]}
+{color[0]}             nough to think they can change the        {results[13]}
+{color[0]}               world are the      ones who do.         {results[14]}
 \x1b[0m"""
 ,'Gentoo':"""{color[0]}
 {color[0]}        __q@@@@m             {results[0]}
@@ -635,7 +637,7 @@ Currently, it displays:
 	CPU Usage
 	RAM
 	Disk Usage""", epilog="""Package info at: https://pypi.python.org/pypi/pyarchey
-Submit issues to: https://github.com/walchko/pyarchey""")
+                                 Submit issues to: https://github.com/walchko/pyarchey""")
 
 	# parser.add_argument('-a', '--art', help='not implemented yet')
 	parser.add_argument('-d', '--display', help='displays all ascii logos and exits', action='store_true')
